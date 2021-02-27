@@ -80,7 +80,9 @@ You can also access the javascript on which the page is loaded from the url putt
 
 To access the functionalities of nano spring app you have to put the following path in your browser: 
 
-``` http://url/nsapp/hellomundo?value=nicolas (Replace nicolas with your name) 
+``` 
+http://url/nsapp/hellomundo?value=nicolas (Replace nicolas with your name) 
+
 ```
 
 
