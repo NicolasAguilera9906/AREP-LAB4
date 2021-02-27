@@ -33,7 +33,7 @@ public class AppTest extends TestCase {
 
     public void testShouldFindJsPage() {
         try {
-            String urlString = "https://infinite-ridge-77551.herokuapp.com/";
+            String urlString = "https://areplab4nicolasac.herokuapp.com/";
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(new URL(urlString + "/webapp.js").openStream()));
             assertTrue(true);
         } catch (IOException e) {
@@ -43,7 +43,7 @@ public class AppTest extends TestCase {
 
     public void testShouldFindImage() {
         try {
-            String urlString = "https://infinite-ridge-77551.herokuapp.com/";
+            String urlString = "https://areplab4nicolasac.herokuapp.com/";
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(new URL(urlString + "/ibai.png").openStream()));
             assertTrue(true);
         } catch (IOException e) {
@@ -53,7 +53,7 @@ public class AppTest extends TestCase {
 
     public void testShouldFindHtmlPage() {
         try {
-            String urlString = "https://infinite-ridge-77551.herokuapp.com";
+            String urlString = "https://areplab4nicolasac.herokuapp.com/";
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(new URL(urlString + "/index.html").openStream()));
             assertTrue(true);
         } catch (IOException e) {
