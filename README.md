@@ -35,7 +35,7 @@ mvn exec:java -D "exec.mainClass"="edu.eci.demo.Application"
 
 In your browser: 
 For view main page : http://localhost:35000/index.html
-For view nano spring app : http://localhost:35000/nsapp/hellomundo?value=nicolas. Replace nicolas with your name 
+For view nano spring app : http://localhost:35000/nsapp/hellomundo?value=nicolas (Replace nicolas with your name) 
 
 ```
 
@@ -52,9 +52,7 @@ View [Documentation](https://nicolasaguilera9906.github.io/AREP-LAB4/)
 
 ## Use
 
-### Use
-
-## Resources loader
+### Resources loader
 
 To use Challenge 1 you must enter the following link in your browser
 
@@ -80,7 +78,12 @@ You can also access the javascript on which the page is loaded from the url putt
 
 ## Nano Spring app
 
-## Diagrams
+To access the functionalities of nano spring app you have to put the following path in your browser: 
+``` http://url/nsapp/hellomundo?value=nicolas (Replace nicolas with your name) 
+```
+You will get the following greeting with your name
+
+![app](src/main/resources/img/nsapp.png)
 
 ## Tests 
 
@@ -93,16 +96,11 @@ You can also access the javascript on which the page is loaded from the url putt
 
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [Heroku](https://www.heroku.com/platform) - Deploy platform
-* [Firebase Realtime Database](https://firebase.google.com/products/realtime-database?hl=es) - Cloud-hosted NoSQL database
 
-## Inform
-
-* [View inform](src/main/resources/inform.pdf)
 
 ## Author
 
 * **Nicolás Aguilera Contreras** 
-
 
 ## License
 
