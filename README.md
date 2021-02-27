@@ -58,7 +58,7 @@ To use Challenge 1 you must enter the following link in your browser
 
 If you use it locally : http://localhost:35000/index.html
 
-If you use it on Heroku : https://infinite-ridge-77551.herokuapp.com/index.html
+If you use it on Heroku : https://areplab4nicolasac.herokuapp.com/index.html
 
 You will get access to the following page
 
@@ -79,8 +79,11 @@ You can also access the javascript on which the page is loaded from the url putt
 ## Nano Spring app
 
 To access the functionalities of nano spring app you have to put the following path in your browser: 
+
 ``` http://url/nsapp/hellomundo?value=nicolas (Replace nicolas with your name) 
 ```
+
+
 You will get the following greeting with your name
 
 ![app](src/main/resources/img/nsapp.png)
